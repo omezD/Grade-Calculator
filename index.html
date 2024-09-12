@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainBody">
+      <div class="left">
+        <div class="dynamicLogo">
+          <img src="logo.png" alt="Grade Calculator Logo" />
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Grade Calculator</h2>
+        <h4>Enter Your Details</h4>
+        <p class="note">
+          Please enter valid grades (A+, A, B+, B, C+, C, D+, D).
+        </p>
+        <div class="appForm">
+          <div class="app-form-group">
+            <input
+              type="text"
+              class="app-form-button"
+              placeholder="Computer Network (A+, A, B+, B, C+, C, D+, D)"
+              id="b"
+            />
+          </div>
+          <div class="app-form-group">
+            <input
+              type="text"
+              class="app-form-button"
+              placeholder="DAA(A+, A, B+, B, C+, C, D+, D)"
+              id="e"
+            />
+          </div>
+          <div class="app-form-group">
+            <input
+              type="text"
+              class="app-form-button"
+              placeholder="OS(A+, A, B+, B, C+, C, D+, D)"
+              id="s"
+            />
+          </div>
+          <div class="app-form-group">
+            <input
+              type="text"
+              class="app-form-button"
+              placeholder="IOT(A+, A, B+, B, C+, C, D+, D)"
+              id="m"
+            />
+          </div>
+          <div class="app-form-group">
+            <input
+              type="text"
+              class="app-form-button"
+              placeholder="NOSQL(A+, A, B+, B, C+, C, D+, D)"
+              id="h"
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div class="app-form-button">
+        <input
+          type="button"
+          value="Show CGPA"
+          class="app-form-button"
+          onclick="calcy()"
+        />
+      </div>
+    </div>
+
+    <div class="app-form-button showdata">
+      <p id="showdata"></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
